@@ -1,0 +1,91 @@
+h1{color:gold;
+    font-size: 70px;
+    font-style: oblique;
+    font-family: 'Tangerine',cursive;
+    text-align: center;text-shadow: 10px 15px rgb(2, 2, 2);}
+.mtop{margin-top: 5%;}
+nav{background-color: rgb(231, 64, 12);
+    display:initial;
+    place-items:end;}
+nav ul{list-style-type:armenian;
+    text-align: justify;
+    text-align-last: right;}
+nav ul a{display: inline-flex;
+    padding: 10px;text-decoration:solid;
+    color:mintcream;
+    font-size: 20px;}
+nav ul a:hover{background-color: rgb(62, 168, 168);
+    color: rgb(127, 255, 0);}
+#sect1{height: 100px;
+    background-image:url("https://img.freepik.com/premium-photo/holi-festival-colorful-background_46250-2449.jpg");
+    background-size: 100%;
+    background-size: cover;}
+#sect2{height: 600px;
+    background-image:url("https://thumbs.dreamstime.com/b/snacks-drinks-panoramic-view-salty-wooden-table-still-life-65162098.jpg");
+    background-size:50%;
+    background-size: cover;}
+#sect3{
+    height: 700px;
+    background-image:url("https://img.freepik.com/premium-photo/holi-festival-colorful-background_46250-2449.jpg");
+    background-size: 100%;
+    background-size: cover;
+}
+#sect4{
+    height: 310px;
+    background-image:url("https://img.freepik.com/premium-photo/holi-festival-colorful-background_46250-2449.jpg");
+    background-size: 100%;
+    background-size: cover;
+}
+#sect6{
+    height: 310px;
+    background-image:url("https://img.freepik.com/premium-photo/holi-festival-colorful-background_46250-2449.jpg");
+    background-size: 100%;
+    background-size: cover;
+}
+#sect5{
+    height: 1000px;
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUODg7U3xBZAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=");
+    background-size: 80%;
+    background-size: cover;
+}
+body {background-image: linear-gradient(to right , #cb2d3e , #ef473a);}
+.searchBox { position: absolute;top: 20%;left: 52%;transform:  translate(-50%,50%);background: hsl(0, 9%, 96%);height: 40px;border-radius: 40px;padding: 10px;}
+
+.searchBox:hover > .searchInput {width: 260px;padding: 0 6px;}
+.searchBox:hover > .searchButton {background: rgb(239, 239, 243);color : #0a070a;}
+
+.searchButton {color: white;
+    float:right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #02060c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;}
+.searchInput {border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: rgb(7, 7, 7);
+    font-size: 16px;transition: 0.8s;
+    line-height: 40px;
+    width: 0px;}
+@media screen and (max-width: 620px) {
+    .searchBox:hover > .searchInput {width: 150px;padding: 0 6px;}}
+.n{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:8px 5px;
+    grid-row-gap: 5px;}
+.item1{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 40px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    color: white;}
+.item1 :hover{transform: scale(1.08);}
+.item2{display: grid;grid-template-columns: repeat(5, 1fr);padding: 30px 40px;grid-column-gap: 20px;grid-row-gap: 30px;color: white;}
+.item2 :hover{transform: scale(1.08);}
+h3{color: white;}
